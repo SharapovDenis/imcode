@@ -1,0 +1,123 @@
+text_messages = {
+    "ChooseButton":
+        "Please, choose the button below:",
+        
+    "Welcome":
+        "Welcome to the MDs_bot! We are glad to present you message-keeping bot! "
+        "This bot was created to keep user's information.\n\n" + "There are some commands:\n"
+        "1. /start, /insert, /show --- Here will appear 3 buttons:\n"
+        "\t\t\t \"Help\" --- to get info about MDs_bot;\n"
+        "\t\t\t \"Insert data\" --- to insert your text into our data base. "
+        "After that, you receive a picture --- your password;\n"
+        "\t\t\t \"Show data\" --- to get your text back. "
+        "You should send your picture-password to the bot and then "
+        "it will send you a text.\n"
+        "2. /help - Here you will receive the same message\n",
+        
+    "AnyMessage":
+        "Please, enter /start for beginning or /help for info.",
+        
+    "InsertButton":
+        "Please, send me a message so I can add it to my data base.\n"
+        "Are you ready?",
+    
+    "InsertNoButton":
+        "Ok, I will wait your commands. If you are ready, "
+        "text /start or press \"Yes\" button above.",
+        
+    "InsertYesButton":
+        "Nice! Please, enter a text:",
+        
+    "ShowButton":
+        "I am going to search your text in my database. "
+        "To prevent errors in my search engine, please, "
+        "*forward to me* the picture-password that I have sent to you before.",
+        
+    "ShowButtonEnter":
+        "Please, enter your picture-password:",
+        
+    "InsertRuntimeErrorConsole":
+        "RuntimeError detected. It could be in function data_insert. " 
+        "Probably, empty cells into database have gone / are not available for now.",
+
+    "InsertRuntimeErrorBot":
+        "Data base error happened: free space has gone. "
+        "Please, text to the admin of this bot or "
+        "try again later with /start. I am sorry for this.",
+        
+    "InsertTypeErrorConsole":
+        "TypeError detected. It could be in function " 
+        "number_to_image (1) / number_to_list (2). "
+        "Probably, input data is not a string (1) or not a positive integer (2).",
+        
+    "TypeErrorBot":
+        "Something went wrong with my calculating functions. "
+        "Please, text to the admin of this bot or "
+        "try again later with /start. I am sorry for this.",
+        
+    "ShowTypeErrorConsole":
+        "TypeError detected. It could be in function " 
+        "show_data, image_to_number, image_compress (1) / list_to_number (2). "
+        "Probably, input data is not a class PIL.Image.Image in (1) case or "
+        "is not a list in (2) case.",
+        
+    "ShowValueErrorConsole":
+        "ValueError detected. It could be in function image_to_number. "
+        "Probably, input image size is incorrect.",
+        
+    "ShowValueErrorBot":
+        "Image detecting error happened. Probably, you are trying to send "
+        "resized or not bot-created picture. Please, forward to me " 
+        "the picture-password that I have sent to you before. "
+        "Perhaps, admin has changed the size of pictures. "
+        "If it is still not working, "
+        "please, text to the admin of this bot or try again later with /start.",
+        
+    "NoPhotoBot":
+        "It is not a picture. Please, try again with \"Show data\" button or "
+        "with /start command.",
+        
+    "NoTextBot":
+        "It is not a text or you are trying to send me an empty string. "
+        "Please, try again with \"Insert data\" button or "
+        "with /start command.",
+        
+    "IdNotFoundConsole":
+        "Id has not been found.",
+        
+    "IdNotFoundBot":
+        "Something went wrong, so I can not find your id in my database. "
+        "Perhaps, you are trying to send me a spoiled picture. "
+        "The best way to get your data back is to forward to me "
+        "the picture-password that I have sent to you before. "
+        "Try again with /start. If it is still not working, "
+        "please, text to the admin of this bot. I am sorry for this. ",
+        
+    "OtherExceptionConsole":
+        "Some error has been detected and excepted. ",
+        
+    "OtherExceptionBot":
+        "Something went wrong and I can not understand how to fix it. "
+        "Please, text to the admin of this bot. I am sorry for this.",
+        
+    "YesAlreadyPressed":
+        "Yes button has already pressed. Please, enter a text:",
+        
+    "ShowAlreadyPressed":
+        "Show button has already pressed. Please, enter the picture-password:",
+    
+    "ButtonsNoIdConsole":
+        "imcode.search_row function can not find id in buttons excel file. ",
+        
+    "ButtonsProblemBot":
+        "Something went wrong, when you pressed the button. "
+        "Please, text to the admin of this bot or try again later with /start. "
+        "I am sorry for this.",
+    
+    "ButtonsNotChangedConsole":
+        "imcode.buttons_change can not find cell by input id.",
+        
+    "ButtonsRunTimeErrorConsole":
+        "RuntimeError detected. It could be in function imcode.buttons_insert. " 
+        "Probably, empty cells into buttons book have gone / are not available for now."
+}

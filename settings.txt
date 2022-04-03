@@ -1,0 +1,3 @@
+shade_number: int = 16
+pix_amnt: int = 5
+pix_len: int = 100
